@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import numpy as np
 import shutil
 from ultralytics import YOLO
-from bot.handlers import (
+from handlers import (
     start,
     button,
     detection,
