@@ -1,4 +1,3 @@
-opencv-python
 ultralytics
 numpy
 python-dotenv==1.0.1
