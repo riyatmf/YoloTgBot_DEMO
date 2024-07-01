@@ -1,5 +1,0 @@
-[env]
-  TOKEN = "your-telegram-bot-token"
-
-[build]
-  start = "python bot/bot.py"
