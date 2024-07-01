@@ -78,7 +78,7 @@ async def detection(update, context):
     try:
         shutil.rmtree('images')
         shutil.rmtree('runs')
-    except:
+    except FileNotFoundError:
         pass
     my_message = await update.message.reply_text('Image received, processing...')
     new_file = await update.message.photo[-1].get_file()
